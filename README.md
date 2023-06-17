@@ -3,5 +3,7 @@
   - right click on the sheet --> view code --> select worksheet from the dropdown
   - paste this code before the `End Sub` line:
     - ```
-      Cells.EntireColumn.AutoFit
+      Private Sub Worksheet_Change(ByVal Target As Range)
+        Target.EntireColumn.AutoFit
+      End Sub
       ```
