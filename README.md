@@ -4,6 +4,6 @@
   - paste this code before the `End Sub` line:
     - ```
       Private Sub Worksheet_Change(ByVal Target As Range)
-        Target.EntireColumn.AutoFit
+        Cells.EntireColumn.AutoFit
       End Sub
       ```
