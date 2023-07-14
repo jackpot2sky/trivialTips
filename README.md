@@ -7,3 +7,8 @@
         Cells.EntireColumn.AutoFit
       End Sub
       ```
+- use `measure-command` to get stats about the execution of a command in real-time:
+  - For example,
+    ```
+    measure-command { choco list -lo }
+    ```
