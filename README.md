@@ -12,3 +12,4 @@
     ```
     measure-command { choco list -lo }
     ```
+- create a shortcut - `slidetoshutdown.exe`
